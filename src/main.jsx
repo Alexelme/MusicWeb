@@ -9,7 +9,7 @@ const FloatingLines = React.lazy(() => import('./FloatingLines'));
 
 gsap.registerPlugin(ScrollTrigger);
 
-const img = (name) => `/img/${name}`;
+const img = (name) => `${import.meta.env.BASE_URL}img/${name}`;
 
 const features = [
   { icon: Waves, title: 'ADAPTIVE ANC', cn: '自适应主动降噪', text: '实时感知环境，智能调节静噪深度' },
