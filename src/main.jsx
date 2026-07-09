@@ -19,9 +19,9 @@ const features = [
 ];
 
 const cards = [
-  { className: 'detail-card light', image: '3.png', title: 'MINIMAL DESIGN', cn: '极简美学设计' },
-  { className: 'detail-card cream', image: '4.png', title: 'PREMIUM MATERIALS', cn: '高端材质工艺' },
-  { className: 'detail-card dark', image: '5.png', title: 'TRAVEL READY', cn: '便携收纳设计' },
+  { className: 'detail-card light', image: '3.webp', title: 'MINIMAL DESIGN', cn: '极简美学设计' },
+  { className: 'detail-card cream', image: '4.webp', title: 'PREMIUM MATERIALS', cn: '高端材质工艺' },
+  { className: 'detail-card dark', image: '5.webp', title: 'TRAVEL READY', cn: '便携收纳设计' },
 ];
 
 function Header() {
@@ -94,7 +94,7 @@ function Hero() {
         <a className="cta" href="#features">EXPLORE MORE <MoveRight size={18} /></a>
       </div>
       <div className="hero-product-wrap">
-        <img className="hero-product" src={img('1.png')} alt="Aurora One black over-ear headphones" />
+        <img className="hero-product" src={img('1.webp')} alt="Aurora One black over-ear headphones" />
       </div>
       <div className="scroll-cue">
         <span>SCROLL DOWN</span>
@@ -124,7 +124,7 @@ function SoundSection() {
   return (
     <section className="sound-section reveal-section" id="technology">
       <div className="exploded-wrap image-reveal">
-        <img className="exploded" src={img('2.png')} alt="Exploded acoustic driver construction of Aurora One headphones" />
+        <img className="exploded" src={img('2.webp')} alt="Exploded acoustic driver construction of Aurora One headphones" />
       </div>
       <div className="section-copy">
         <span className="eyebrow">SOUND EXPERIENCE</span>
@@ -159,12 +159,12 @@ function DesignCards() {
           </ul>
           <a className="cta small" href="#gallery">DISCOVER APP <MoveRight size={16} /></a>
         </div>
-        <img src={img('6.png')} alt="Person wearing Aurora One headphones" />
+        <img src={img('6.webp')} alt="Person wearing Aurora One headphones" />
       </article>
       <article className="style-card" id="gallery">
         <h3>选择你的风格</h3>
         <div className="swatches"><span>曜石黑</span><span>月光白</span><span>星际灰</span></div>
-        <img src={img('7.png')} alt="Aurora One headphones color variants" />
+        <img src={img('7.webp')} alt="Aurora One headphones color variants" />
       </article>
       <article className="buy-card" id="preorder">
         <span className="eyebrow">LIMITED DROP</span>
